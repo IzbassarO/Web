@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/card-product/img/favicon.png" type="image/x-icon">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&family=Krona+One&display=swap"
+        rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="/card-product/reset.css">
+    <link rel="stylesheet" href="/card-product/style.css">
+    <style>
+        html,
+        body {
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif, 'Krona One', sans-serif;
+        }
+    
+        *,
+        *::after,
+        *::before {
+            box-sizing: inherit;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="heading-nav">
+                <ul>
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Доставка и оплата</a></li>
+                </ul>
+    
+                <h1 class="tittle" id="logo-tittle">DRIVE MOTO</h1>
+                <span class="address" id="logo-address">Москва, ул. Пушкина 21</span>
+    
+                <div class="nav-img">
+                    <img src="/card-product/img/header/like-nav.svg" alt="like-img">
+                    <img src="/card-product/img/header/human-nav.svg" alt="human-img">
+                    <img src="/card-product/img/header/shop-nav.svg" alt="shop-img">
+                </div>
+            </div>
+    
+            <hr>
+            <nav class="nav">
+                <ol>
+                    <li><a href="#">Квадроциклы</a></li>
+                    <li><a href="#">Катера</a></li>
+                    <li><a href="#">Гидроциклы</a></li>
+                    <li><a href="#">Лодки</a></li>
+                    <li><a href="#">Вездеходы</a></li>
+                    <li><a href="#">Снегоходы</a></li>
+                    <li><a href="#">Двигатели</a></li>
+                    <li><a href="#">Запчасти</a></li>
+                </ol>
+
+                <ul>
+                    <li><a href="/index.html">Главная</a></li>
+                    <img src="/card-product/img/header/Back.svg" alt="Back" class="header-back">
+                    <li><a href="/catalog/catalog.html">Гидроциклы</a></li>
+                    <img src="/card-product/img/header/Back.svg" alt="Back" class="header-back">
+                    <li><a href="#">Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic</a></li>
+
+                </ul>
+            </nav>
+
+
+            <main class="product-info">
+                <div class="product-leftside">
+                    <!--1-->
+                    <div class="item">
+                        <div class="item-sale"><span class="sale">SALE</span></div>
+                        <!-- <div class="likee"><img src="/card-product/img/header/like.svg" alt="like"></div> -->
+                        <a href="/card-product/cardProduct.html"><img src="/card-product/img/header/item.png" alt="item"
+                                class="item-img"></a>
+                        <span class="item-cost-no">
+                            1 200 475 ₽
+                        </span>
+                        <span class="item-cost">
+                            1 100 475 ₽
+                        </span>
+                    
+                        <span class="cheap"><a href="#">Нашли дешевле? Снизим цену!</a></span>
+                    </div>
+                </div>
+            </main>
+
+            <section class="section-table">
+                <table border="1">
+                    <tr>
+                        <th>Адрес</th>
+                        <th>Режим работы</th>
+                        <th>Доступно</th>
+                        <th>Количество</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Москва, ул. Пушкина 21</td>
+                        <td>пн-сб: 8.00-19.00 <br>
+                        вс: 9.00-17.00</td>
+                        <td>В наличии</td>
+                        <td>1</td>
+                        <td><button type="button">Купить</button></td>
+                    </tr>
+                    <tr>
+                        <td>Москва, ул. Южная 134</td>
+                        <td>пн-сб: 8.00-19.00 <br>
+                        вс: 9.00-17.00</td>
+                        <td>В наличии</td>
+                        <td>2</td>
+                        <td><button type="button">Купить</button></td>
+                    </tr>
+                    <tr>
+                        <td>Санкт-Петербург, ул. Красная 19</td>
+                        <td>пн-сб: 8.00-19.00 <br>
+                        вс: 9.00-17.00</td>
+                        <td>Нет в наличии</td>
+                        <td>0</td>
+                        <td><button type="button">Купить</button></td>
+                    </tr>
+                    <tr>
+                        <td>Киев, ул Шевченко 167</td>
+                        <td>пн-сб: 8.00-19.00 <br>
+                        вс: 9.00-17.00</td>
+                        <td>Нет в наличии</td>
+                        <td>0</td>
+                        <td><button type="button">Купить</button></td>
+                    </tr>
+                </table>
+            </section>
+         </div>   
+    </header>
+
+
+    <footer class="footer-end">
+        <div class="container">
+            <div class="footer-end">
+    
+                <div class="footer-end1">
+                    <span class="footer-end1-subscribe">Подпишитесь на нашу рассылку &amp; <br> и узнавайте о акция
+                        быстрее</span>
+                    <form class="email" action="">
+                        <input type="text" placeholder="Введите ваш e-mail" class="footer-end1-input" name="email-text"
+                            required>
+                        <button type="submit" class="footer-end1-submit"><span>Отправить</span></button>
+                    </form>
+                </div>
+    
+                <div class="footer-info">
+                    <ul>
+                        <li><a href="">Информация</a></li>
+                        <li><a href="">О компании</a></li>
+                        <li><a href="">Контакты</a></li>
+                        <li><a href="">Акции</a></li>
+                        <li><a href="">Магазины</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-info2">
+                    <ul>
+                        <li><a href="">Интернет-магазин</a></li>
+                        <li><a href="">Доставка и самовывоз</a></li>
+                        <li><a href="">Оплата</a></li>
+                        <li><a href="">Возврат-обмен</a></li>
+                        <li><a href="">Новости</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-social-media">
+                    <ul>
+                        <li><a href=""><img src="/catalog/img/footer/insta.svg" alt="insta"></a></li>
+                        <li><a href=""><img src="/catalog/img/footer/vk.svg" alt="vk"></a></li>
+                        <li><a href=""><img src="/catalog/img/footer/facebook.svg" alt="facebook"></a></li>
+                        <li><a href=""><img src="/catalog/img/footer/youtube.svg" alt="youtube"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
